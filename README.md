@@ -1,7 +1,7 @@
 # Opening a list view in a workspace tab, and then using a VF page list button will not return correctly
 # The retURL is not properly set.
 
-This is an edge-case, but it can happen as demonstrated here.  It requires a custom VF button on the list view, and the VF page immediately returns to the previous page by calling StandarController.cancel().
+This is an edge-case, but it can happen as demonstrated here.  It requires a custom VF button on the list view, and the VF page immediately returns to the previous page by calling StandardController.cancel().
 
 ## Repro
 
