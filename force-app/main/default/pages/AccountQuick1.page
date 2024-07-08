@@ -1,0 +1,13 @@
+<apex:page standardController="Account" recordSetVar="accounts">
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Page
+  <!-- End Default Content REMOVE THIS -->
+  <apex:form id="form">
+        <apex:actionFunction name="cancel" action="{!cancel}" />
+      <!--  <apex:actionFunction name="backToListView" action="{!backToListView}"/> SFDC comment--> 
+  </apex:form>
+  	<script>
+    	cancel();
+    </script>
+</apex:page>
